@@ -16,6 +16,5 @@ void loop()
 {
   // Output raw GPS data to the serial monitor
   //if(ss.available()>0)
-    Serial.write(ss.read());
-  
+    Serial.write(ss.read());  
 }
